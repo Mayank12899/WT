@@ -1,0 +1,10 @@
+label, input,textarea{
+    display: block;
+    width: 100px;
+}
+.frm{
+    align-self: center;
+    padding-left: 650px;
+    padding-top: 200px;
+    width: 500px;
+}

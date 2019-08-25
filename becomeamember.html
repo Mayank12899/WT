@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Community</title>
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style1.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale = 1, user-scalable=no"/>
+<link rel="stylesheet" href="CSS/style.css">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="C:/Users/Asus/Desktop/CC Web/HTML Test/parallax.js"></script>
+<style>   
+    .forma{
+        padding: 20px;
+        padding-left: 0px;
+    }
+    .Frm{
+        padding: 500px;
+        padding-top: 100px;
+        padding-bottom: 100px;            
+        background-position: center;      
+    }
+    form{
+        border: 3px solid grey;
+        padding: 50px;
+background: url(Images/download1.jpg) center center;
+        
+        
+    }
+    p{
+        align-content: flex-start;
+        font-size: 1em;
+        font-family: 'Merriweather', serif;
+    }
+    #butt{
+        display: inline-block;
+        padding: 10px;
+        font-size: 1em;
+    }
+    .Gen{
+        padding: 20px;
+    }
+    
+</style>
+
+</head>
+<body>
+   
+    <div class="Heading">
+        <h1>
+            Climate Crisis
+        </h1>
+        
+    </div>
+    
+    <div class="Parallax" data-parallax="scroll" data-image-src="Images/images1.jpeg">   
+   <nav>
+
+    <div class="Hea">
+        <h1>Climate Crisis</h1>
+    </div>
+   <div class="Toggle">
+     <i class="fa fa-bars menu" aria-hidden="true"></i>
+   </div>
+   
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Join Us</a></li>
+            <li><a href="https://www.instagram.com/climatecrisis_awareness/?igshid=1ioux96k17co3">Instagram</a></li>
+            
+        </ul>
+    </nav>  <br><br><br>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                 $('ul').toggleClass('active');
+          })
+        })
+    </script>
+    
+    <div class="Frm">
+      <center>
+     <h1>
+        Become A Member
+    </h1>
+    <br><br>
+
+ </center>
+ <form id="demo1" action="doc.php" onSubmit="myFunction()" method="post" >
+      <p>Name :  <input id="tt" type="textbox" value = "Enter Name">
+</p>  
+  <p>Password: <input type="password">
+   </p>
+
+   <p>
+       Whatsapp Mobile Number : <input id = "block" type="text" value="Enter 10 digit">
+   
+   </p>
+   <p>
+        Education :     <select name="" id="" value = "Choose Your Education">
+       <option value="HSC">HSC</option>
+       <option value="SSC">SSC</option>
+       <option value="College Going">College Going</option>
+       <option value="Masters">Masters</option>
+       <option value="PhD">PhD</option>
+   </select>
+  
+   </p>
+  <p class="Gen">
+       Gender: <br>
+   <input type="radio" name="Gender">Male 
+    <br>
+    <input type="radio" name="Gender">Female
+    <br>
+    <input type="radio" name="Gender"> Other
+    <br>
+  
+  </p>
+    <p>
+        
+    <input id="demo1" onclick="myFunction()"type="button" value="Submit">  
+    <input type="button" value="Reset">   
+    </p>
+      
+  
+ </form>
+    
+   
+  </div>  
+    
+        
+    
+</body>
+</html>

@@ -1,0 +1,247 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+      font-family: 'Mountains of Christmas', cursive;
+}
+.heijt{
+    margin-left: 400px;
+}
+
+.Parallax{
+    height: 400px;
+    margin-bottom: 150px;
+}
+li{
+    text-align: center;
+    padding: 10px;
+}
+.Headg{
+    display: none;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 10px 80px;
+}
+.fa{
+    display: block;
+    padding: 15px 50px;
+    resize: horizontal;
+    background: white;
+
+}
+.fa:hover{
+    background: #009688; 
+}
+body{
+background: url("../Images/images.jpg") no-repeat center center;
+    background-size: cover;
+}
+.Heading{
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.Navbar{
+   text-align: center;  
+    background: white;
+    margin-bottom: 20px;
+}
+li a:hover{
+    background: #009688
+}
+.Par{
+   text-align: center;   
+    margin-bottom: 85px;
+}
+.Para{
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 400px;
+}
+.bakwas{
+    margin: inherit;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    width: 50%;
+    padding: 100px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 400px;
+}
+.Par{
+    margin-left: 400px;
+}
+
+.OnImage1{
+    margin-left: 40px;
+    padding: 20px;
+    width: 50%;
+    color: white;
+    font-family: none;
+}
+.OnImage{
+    margin-left: 40px;
+    padding: 20px;
+    width: 50%;
+    color: white;
+    font-family: none;
+}
+.Parallex{
+  margin-top: 200px;/* For IE8 and earlier */
+}
+.Contacts{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    
+}
+h1{
+    font-size: 3em;
+    padding-top: 50px;
+    margin: 0;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: 'Mountains of Christmas', cursive;
+}
+hr{
+    color: black;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+.Toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+    box-sizing: border-box;
+    display: none;  
+}
+
+.Spaces{
+    display: none;
+}
+
+nav
+{
+    width: 100%;
+    background: white;
+    padding: 0;
+}
+ul{
+    margin: 0px 0px;
+    width: 80%;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 0;
+}
+ul li a{
+    text-decoration: none;
+    
+    text-align: center;
+}
+ul li:hover{
+    background-color: #009688;    
+}
+.Hea{
+    display: none;
+}
+.Toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+    box-sizing: border-box;
+    display: none;  
+}
+@media (max-width:1529px)
+{
+    .Headk{
+        display: none;
+    }
+    .Hea{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    .Toggle{
+        display: block;
+        padding: 20px;
+    }
+    ul{
+        width: 100%;
+        display: none;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+    .Heading{
+        display: none;
+        
+    }
+    .OnImage1{
+        display: none;
+        padding: 20px;
+        width: 50%;
+        color: white;
+        font-family: none;
+    }
+    .Parallax{
+        height: 600px;
+        margin-bottom: 150px;
+    }
+    form{
+        width: 400px;
+        display: block;
+        
+    }
+    .forma{
+        padding: 20px;
+        padding-left: 0px;
+    }
+    .Frm{
+        padding: 500px;
+        padding-top: 100px;
+        padding-bottom: 100px;            
+         
+    }
+    form{
+        border: 3px solid grey;
+        padding: 50px;
+background: url(Images/download1.jpg) center center;
+        
+        
+    }
+    p{
+        align-content: flex-start;
+        font-size: 1em;
+        font-family: 'Merriweather', serif;
+    }
+    #butt{
+        display: inline-block;
+        padding: 10px;
+        font-size: 1em;
+    }
+    .Gen{
+        padding: 20px;
+    }
+}
