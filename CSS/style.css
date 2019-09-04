@@ -3,7 +3,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-      font-family: 'Mountains of Christmas', cursive;
+      font-family: sans-serif;
 }
 li{
     text-align: center;
@@ -16,7 +16,7 @@ li{
 li a{
     display: block;
     text-align: center;
-    padding: 15px 90px;
+    padding: 15px 70px;
 }
 .fa{
     display: block;
