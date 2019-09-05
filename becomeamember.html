@@ -138,19 +138,44 @@
     <br><br>
 
  </center>
- <form id="demo1" action="doc.php" onSubmit="myFunction()" method="post" >
-      <p>Name :  <input id="tt" type="textbox" value = "Enter Name">
-</p>  
-  <p>Password: <input type="password">
-   </p>
-
-   <p>
-       Whatsapp Mobile Number : <input id = "block" type="text" value="Enter 10 digit">
+ <form id="demo1" action="doc.php" method="post" name = "reg">
+     <table>
+        <tr>
+            <td>
+                <p>Name :</p>         
+         </td>
+         <td>
+             <input id="tt" type="textbox" placeholder = "Enter Name">
+         </td>
+     
+        </tr>
+         
+         <tr>
+             <td>
+                 Password :
+             </td>
+             <td>
+                 <input type="password" placeholder="Password" name="name">
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 Whatsapp Mobile Number :
+             </td>
+             <td>
+                  <input id = "block" type="text" placeholder ="Enter 10 digit no." name = "WNo">
    
-   </p>
-   <p>
-        Education :    
-    <select name="" id=""  placeholder="Choose Your Education">
+             </td>
+         </tr>
+         <tr>
+             <td>
+                  Education :
+             </td>
+             <td>
+        <select name="" id="" placeholder ="Select Education">
+        <option value="none" selected disabled hidden> 
+          Select an Option 
+      </option> 
        <option value="HSC">HSC</option>
        <option value="SSC">SSC</option>
        <option value="College Going">College Going</option>
@@ -158,22 +183,41 @@
        <option value="PhD">PhD</option>
    </select>
   
-   </p>
-  <p class="Gen">
-       Gender: <br>
-   <input type="radio" name="Gender">Male 
-    <br>
-    <input type="radio" name="Gender">Female
-    <br>
-    <input type="radio" name="Gender"> Other
-    <br>
-  
-  </p>
-    <p>
+             </td>
+         </tr>
+         
+                   <div>
+               <tr>
+                <td>
+                   <p class="Gen">
+              
+                Gender: 
+                   </p>
+                       </td> 
+               <td>
+    <input type="radio" name="Gender">  Male 
+                
+    <input type="radio" name="Gender">  Female
+   
+    <input type="radio" name="Gender">  Other
         
-    <input id="demo1" onclick="myFunction()"type="button" value="Submit">  
-    <input type="button" value="Reset">   
-    </p>
+           </td>
+                </tr>
+         
+                   </div>
+         </table>              
+ 
+    <center>
+       <div class="suu">
+            <input align="center"id="demo1" type="button" value="Submit" onclick="return Validate();">  
+        <br>
+    <input align ="right"type="button" value="Reset">   
+   
+       </div>
+        
+    </center>
+        
+    
       
   
  </form>
