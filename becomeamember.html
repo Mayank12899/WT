@@ -23,8 +23,9 @@
         border: 2px solid white; 
         margin-left: 30px;
         padding: 100px;
-        padding-bottom: 0;
+        padding-bottom: 20px;
         padding-top: 20px;
+        padding-left: 200px;
     }
    h2{
     font-style:italic;
@@ -44,7 +45,7 @@ input[type=submit] {
 }
 
 input[type=text] {
-  width: 50%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -57,7 +58,7 @@ input[type=text]:focus {
 
 textarea {
   font-style:Verdana;
-  width: 50%;
+  width: 75%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -83,6 +84,28 @@ textarea[type=text]:focus {
     }
 
 </style>
+<script>
+    function validate(){
+        var first = document.getElementById("First");
+        var last = document.getElementById("Last");
+        var email=document.getElementById("Email");
+        var phone = document.getElementById("Phone");
+        var gender=document.getElementById("Gender");
+        var i=0;
+        
+        //Validation Begins here
+        if(first.value.trim()=="" ||last.value.trim()==""||email.value.trim()==""||phone.value.trim()==""){
+            alert("Information is incomplete");
+            return false;
+        }
+        
+        else{
+            console.log("Beta Form Submit ho gya");
+            return true;
+        }
+        
+    }
+</script>
 </head>
 <body>
    
@@ -128,35 +151,36 @@ Become a Community Member
 </center>
 </h2>
    <br><br>
-    <form action="" method ="post">
+   <div class="For">
+    <form action="" method ="post" onsubmit="return validate()">
 
-<div class="For">
+
     <h4>First Name: </h4>
-<input type ="text" placeholder="Enter first name" name=" first name" maxlength="5" />
+<input type ="text" placeholder="Enter first name" name=" first name" maxlength="5" id="First" />
 
 
 <h4>Last Name: </h4>
-<input type ="text" placeholder="Enter last name" name=" last name" maxlength="5" />
+<input type ="text" placeholder="Enter last name" name=" last name" maxlength="5" id="Last" />
 
 
 <h4>Email id:</h4>
-<input type ="text" placeholder="Enter email id" name=" email id" maxlength="5" />
+<input type ="text" placeholder="Enter email id" name=" email id" maxlength="5" id="Email"/>
 
 <h4>Phone no.:</h4>
-<input type ="text" placeholder="Enter phone number" name=" phone no." maxlength="5" />
+<input type ="text" placeholder="Enter phone number" name=" phone no." maxlength="5" id="Phone" />
         
 <div class="Gen">
     <h4>Gender:
      </h4>
      <div class="Choice">
-            <input type ="radio" name="gender" value ="on" />Male 
+            <input type ="radio" name="gender" value ="on" id="Gender" />Male 
      </div>
      <div class="Choice">
-            <input type ="radio" name="gender" value ="on" />Female
+            <input type ="radio" name="gender" value ="on" id="Gender" />Female
          
      </div>
      <div class="Choice">
-            <input type ="radio" name="gender" value ="on" />Other
+            <input type ="radio" name="gender" value ="on" id="Gender"/>Other
          
      </div>
     
@@ -169,12 +193,16 @@ Become a Community Member
 
 
 <br><br>
-<input type ="submit" value="Submit" />
+<center>
+    <input type ="submit" value="Submit" />
+    
+</center>
 
-</div>
+
 
 
 
 </form>  
+    </div>
 </body>
 </html>
