@@ -3,25 +3,102 @@
  <head>
      <meta charset="UTF-8">
      <title>Document</title>
- <link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="style.css">
+ <style>
+h2{
+    font-style:italic;
+    color: FireBrick;
+}
+
+h4{
+    font-style:italic;
+    color:rgb(116, 106, 106);
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+textarea {
+  font-style:Verdana;
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+}
+
+textarea[type=text]:focus {
+  border: 3px solid #555;
+}
+
+</style>
+
  </head>
  <body>
-    <div class="container">
-        <form action="" class="frm" border="Solid">
-         <label>
-             Email :
-             <input type="Email">
-         </label>
-         <label>
-             Password :
-             <input type="Password">
-         </label>
-         <label>
-             Message :
-             <textarea></textarea>
-         </label>
-     </form>
+    
+<form action="" method ="post">
 
-    </div>
-      </body>
+<h2>
+<center>
+Become a Community Member    
+</center>
+</h2>
+
+<br><br>
+
+<h4>First Name: </h4>
+<input type ="text" placeholder="Enter first name" name=" first name" maxlength="5" />
+
+
+<h4>Last Name: </h4>
+<input type ="text" placeholder="Enter last name" name=" last name" maxlength="5" />
+
+
+<h4>Email id:</h4>
+<input type ="text" placeholder="Enter email id" name=" email id" maxlength="5" />
+
+<h4>Phone no.:</h4>
+<input type ="text" placeholder="Enter phone number" name=" phone no." maxlength="5" />
+        
+        
+<h4>Gender:
+ </h4>
+<input type ="radio" name="gender" value ="on" />Male
+<input type ="radio" name="gender" value ="on" />Female
+<input type ="radio" name="gender" value ="on" />Other
+        
+
+<h4>Message:</h4>
+<textarea type ="text" placeholder="Drop a message" name=" description" rows ="3" cols="50">
+</textarea>
+
+
+<br><br>
+<input type ="submit" value="Submit" />
+   
+    
+    
+    
+   
+   
+    
+</form>  
+     
+</body>
  </html>
