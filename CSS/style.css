@@ -100,7 +100,12 @@ h1{
 }
 h2{
     margin-bottom: 20px;
-    font-family: 'Mountains of Christmas', cursive;
+    font-style: normal;
+    font-family: sans-serif;
+    border: 2px solid white;
+    border-radius: 20px;    
+    width: 50%;
+    margin-left: 400px;
 }
 hr{
     color: black;
