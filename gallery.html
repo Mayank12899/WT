@@ -16,6 +16,32 @@
    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="C:/Users/Asus/Desktop/CC Web/HTML Test/parallax.js"></script>
+<style>   
+.Tech{
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 50px;
+    *display:inline;
+    border-radius: 50px;
+}
+.Container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+    img{
+        height: 400px;
+        width: 400px;
+        border-radius: 50px;
+    }
+</style>
 </head>
 <body>
    
@@ -26,7 +52,7 @@
         
     </div>
     
-    <div class="Parallax" data-parallax="scroll" data-image-src="Images/images1.jpeg">   
+    <div class="Parallax" data-parallax="scroll" data-image-src="Images/images1.jpeg" style="width: 100%">   
    <nav>
 
     <div class="Hea">
@@ -36,24 +62,46 @@
      <i class="fa fa-bars menu" aria-hidden="true"></i>
    </div>
    
-         <ul>
+         <ul style="width: 100%">
             <li><a href="index.html">Home</a></li>
             <li><a href="Events.html">Events</a></li>
             <li><a href="community.html">Community</a></li>
             <li><a href="#">Gallery</a></li>
         <li><a href="becomeamember.html">Join Us</a></li>
+        <li><a href="becomeamember.html">Create an Event</a></li>
             <li><a href="https://www.instagram.com/climatecrisis_awareness/?igshid=1ioux96k17co3">Instagram</a></li>
             
         </ul>
     </nav>  <br><br><br>
     </div>
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function(){ 
             $('.menu').click(function(){
                  $('ul').toggleClass('active');
           })
         })
     </script>
-    
+    <div class="Container">
+        <div class="X">
+           <div class="Tech">
+               <img src="0623b4bb-cad7-426f-ae05-e2d795295599.jpg" alt="" height="400px" width="400px" style="border-radius: 50px">
+           </div>
+           <div class="Tech">
+               <img src="3764635c-7d2e-4f20-aef2-e4926971af7c.jpg" alt="">
+           </div>
+           <div class="Tech">
+               <img src="48a60dd8-a0c9-4174-9934-07a290cbca05.jpg" alt="">
+           </div>
+           <div class="Tech">
+               <img src="62ade8f4-027f-47f8-9b55-d70b427897d8.jpg" alt="">
+           </div>
+           <div class="Tech">
+               <img src="8f3c308d-cfc4-4244-96ff-3dea0037d89e.jpg" alt="">
+           </div>
+           <div class="Tech">
+               <img src="f6d52f7d-042c-4976-ae8d-2f4f4301d310.jpg" alt="">
+           </div> 
+        </div>
+    </div>
 </body>
 </html>
